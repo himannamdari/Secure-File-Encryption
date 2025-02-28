@@ -1,26 +1,26 @@
-# 🔐 Secure File Encryption & Decryption
+#  Secure File Encryption & Decryption
 
-## 📌 Overview
+## Overview
 This project provides a simple **AES-256** encryption and decryption tool for text files. It allows users to securely encrypt files using a **passphrase** and later decrypt them back to their original form. The tool also applies **Base64 encoding** to store encrypted data safely.
 
-## 🚀 Features
+##  Features
 - **AES-256 Encryption** – Industry-standard encryption.
 - **Base64 Encoding** – Prevents data corruption.
 - **Passphrase Security** – User-defined key for encryption/decryption.
 - **Handles Any Text File** – Encrypt and decrypt sensitive data easily.
 
-## 🛠️ How It Works
-### 🔒 Encryption Process
+##  How It Works
+###  Encryption Process
 1. User provides a **text file** and a **passphrase**.
 2. The file content is **encrypted using AES-256**.
 3. The encrypted data is **Base64-encoded and saved**.
 
-### 🔑 Decryption Process
+###  Decryption Process
 1. User provides an **encrypted file** and the **correct passphrase**.
 2. The **Base64 encoding is reversed**.
 3. The data is **decrypted using AES-256** to restore the original file.
 
-## 💻 Usage
+##  Usage
 ### Prerequisites
 Ensure you have **Python 3** and install the required library:
 ```bash
@@ -50,11 +50,11 @@ Enter the passphrase: mypassword
 File 'secret.enc' decrypted successfully as 'decrypted.txt'.
 ```
 
-## 🤝 Contributing
+## Contributing
 1. Fork the repo.
 2. Create a new branch (`feature-branch`).
 3. Make your improvements.
 4. Submit a Pull Request.
 
-## 📜 License
+##  License
 This project is licensed under the **MIT License**. Feel free to use and modify it!
